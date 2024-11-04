@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, "Hiragino Kaku Gothic ProN", "Hiraigino Sans", Meiryo;
+  font-size: 16px;
+  color: black;
+}
+
+a {
+  text-decoration-line: none;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+h1 {
+  color: #24A8Bf;
+}
+
+top-img {
+  max-width: 100%;
+}
+
+.contains-container {
+  margin: 0% auto;
+  nav {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.concept-container {
+  justify-content: space-between;
+}
+
+header img{
+  width: 25%;
+  margin: 5% auto 5% auto;
+  display: flex;
+  justify-content: center;
+}
+
+.top-img {
+  width: 100%;
+  
+}
