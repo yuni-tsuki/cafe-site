@@ -6,6 +6,7 @@
     <meta name="description" content="Sky Coffeeの公式ホームページ">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
 
   <body>
@@ -13,66 +14,82 @@
       <img src="images/logo.png" alt="Sky Coffee">
     </header>
 
-    <img class="top-img" src="images/pc_main-visual.jpg" alt="複数の青いカップのコーヒー">
+    <picture class="main-visual">
+      <source srcset="images/pc_main-visual.jpg" media="(min-width: 768px)">
+      <img src="images/sp_main-visual.jpg" alt="複数の青いカップのコーヒー">
+    </picture>
     
-    <div class="contains-container">
-      <nav>
-        <a href="#"><small>menu</small></a>
-        <a href="#"><small>blog</small></a>
-        <a href="#"><small>access</small></a>
-      </nav>
+    <nav class="gloval-nav">
+      <ul>
+        <li><a href="#">menu</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">access</a></li>
+      </ul>
+    </nav>
 
-      <div class="concept-container">
-        <img src="images/concept.jpg" alt="青いカップのコーヒー">
-        <div>
-          <p>concept</p>
-          <h1>心静かにコーヒーを</h1>
-          <p>立ち止まって、空の青さを眺めて、一息つきましょう</p>
+    <main>
+      <section class="concept">
+        <div class="container">
+          <img src="images/concept.jpg" alt="青いカップのコーヒー" width="750" height="759">
+          <div class="description">
+            <div class="subtitle">concept</div>
+            <h2>心静かにコーヒーを</h2>
+            <p>
+              立ち止まって、<br>
+              空の青さを眺めて、<br>
+              一息つきましょう
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <h1>Blog</h1>
-      <p class="bold">ブログ</p>
+      <section class="blog">
+        <div class="container">
+          <h2>blog</h2>
+          <div class="subtitle">ブログ</div>
+          
+          <div class="list">
+            <div class="article">
+              <img src="images/thumbnail01.jpg" alt="青いトラック">
+              <h3 class="title">コーヒーカー始めました。</h3>
+              <time datetime="2030-08-08">2030.08.08</time>
+            </div>
 
-      <div class="article">
-        <img src="images/thumbnail01.jpg" alt="青いトラック">
-        <h2>コーヒーカー始めました。</h2>
-        <p>2030.08.08</p>
-      </div>
+            <div class="article">
+              <img src="images/thumbnail02.jpg" alt="牛乳">
+              <h3 class="title">濃厚クリーミーなミルクをどうぞ</h3>
+              <time datetime="2030-08-05">2030.08.05</time>
+            </div>
 
-      <div class="article">
-        <img src="images/thumbnail02.jpg" alt="牛乳">
-        <h2>濃厚クリーミーなミルクをどうぞ</h2>
-        <p>2030.08.05</p>
-      </div>
+            <div class="article">
+              <img src="images/thumbnail03.jpg" alt="音楽アプリ">
+              <h3 class="title">Sky Coffeeのオリジナル曲が完成！無料ダウンロード可能です。</h3>
+              <time datetime="2030-08-02">2030.08.02</time>
+            </div>
 
-      <div class="article">
-        <img src="images/thumbnail03.jpg" alt="音楽アプリ">
-        <h2>Sky Coffeeのオリジナル曲が完成！無料ダウンロード可能です。</h2>
-        <p>2030.08.02</p>
-      </div>
+            <div class="article">
+              <img src="images/thumbnail04.jpg" alt="山々">
+              <h3 class="title">ハイキング用のコーヒーを販売中です。</h3>
+              <time datetime="2030-07-28">2030.07.28</time>
+            </div>
 
-      <div class="article">
-        <img src="images/thumbnail04.jpg" alt="山々">
-        <h2>ハイキング用のコーヒーを販売中です。</h2>
-        <p>2030.07.28</p>
-      </div>
+            <div class="article">
+              <img src="images/thumbnail05.jpg" alt="青とピンクのグラデーション">
+              <h3 class="title">ショップの壁を塗ってみました。</h3>
+              <time datetime="2030-07-27">2030.07.27</time>
+            </div>
 
-      <div class="article">
-        <img src="images/thumbnail05.jpg" alt="青とピンクのグラデーション">
-        <h2>ショップの壁を塗ってみました。</h2>
-        <p>2030.07.27</p>
-      </div>
+            <div class="article">
+              <img src="images/thumbnail06.jpg" alt="コーヒーと手帳">
+              <h3 class="title">ブログを始めました。</h3>
+              <time datetime="2030-07-26">2030.07.26</time>
+            </div>
+          </div>
 
-      <div class="article">
-        <img src="images/thumbnail06.jpg" alt="コーヒーと手帳">
-        <h2>ブログを始めました。</h2>
-        <p>2030.07.26</p>
-      </div>
-
-      <p>ブログ一覧</p>
-
-    </div>
+          <button>ブログ一覧</button>
+        </div>
+      </section>
+    </main>
 
     <footer>
       <img src="images/logo-white.png" alt="Sky Coffee">
