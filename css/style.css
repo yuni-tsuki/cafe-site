@@ -132,4 +132,103 @@ footer {
     color: #8b8b8b;
     text-align: center; }
 
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 15px;
+    line-height: 1.7; }
+
+  .container {
+    padding: 0 20px; }
+
+  header {
+    padding: 30px 0; }
+    header img {
+      width: 160px;
+      margin: 0 auto;
+      display: block; }
+
+  .gloval-nav {
+    margin-top: 30px;
+    margin-bottom: 70px; }
+    .gloval-nav li {
+      margin-right: 50px;
+      font-size: 16px;
+      letter-spacing: 0.1em;
+      line-height: 1; }
+      .gloval-nav li:last-child {
+        margin-right: 0; }
+
+  .concept .container {
+    display: block;
+    margin-bottom: 90px; }
+    .concept .container img {
+      width: 100%;
+      margin-bottom: 30px; }
+    .concept .container .description {
+      padding-left: 20px; }
+      .concept .container .description .subtitle {
+        font-size: 15px;
+        line-height: 1.2;
+        letter-spacing: 0.1em;
+        margin-bottom: 15px; }
+      .concept .container .description h2 {
+        font-size: 26px;
+        line-height: 1.5;
+        letter-spacing: 0.1em;
+        margin-bottom: 20px; }
+      .concept .container .description p {
+        font-size: 15px;
+        line-height: 1.8;
+        letter-spacing: 0.1em; }
+
+  .blog {
+    padding-top: 0;
+    padding-bottom: 0; }
+    .blog .container {
+      padding-top: 0;
+      margin: 0 0 50px 0; }
+      .blog .container h2 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+        text-align: center;
+        margin-bottom: 3px; }
+      .blog .container .subtitle {
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.03em;
+        text-align: center; }
+      .blog .container .list {
+        display: block;
+        margin-bottom: 10px; }
+        .blog .container .list .article {
+          margin: 0 0 10px 0;
+          width: 100%; }
+          .blog .container .list .article img {
+            width: 100%;
+            margin-bottom: 12px; }
+          .blog .container .list .article h3 {
+            font-size: 15px;
+            line-height: 1.6;
+            margin: 0 0 0 2px; }
+          .blog .container .list .article time {
+            font-size: 12px;
+            line-height: 1.7;
+            letter-spacing: 0.05em; }
+      .blog .container button {
+        width: 100%;
+        height: 50px; }
+        .blog .container button:hover {
+          opacity: 0.8; }
+
+  footer img {
+    padding: 60px auto 40px auto;
+    width: 100px; }
+  footer p {
+    font-size: 10px;
+    line-height: 1.7;
+    letter-spacing: 0.05em;
+    padding-bottom: 20px; } }
+
 /*# sourceMappingURL=style.css.map */
